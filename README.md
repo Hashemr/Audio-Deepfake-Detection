@@ -18,6 +18,7 @@ Audio deepfake technology has advanced significantly, enabling the creation of h
 
 The model achieves state-of-the-art performance on benchmark datasets:
 - **ASV Spoof 2019**: 99.9% accuracy
+- **ASV Spoof 2021**: 95.3% accuracy
 - **DEEP-VOICE**: 96.9% accuracy
 
 ## Getting Started
