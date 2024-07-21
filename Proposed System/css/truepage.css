@@ -1,0 +1,182 @@
+:root {
+  --primary-color: #ffff;
+  --secondary-color: #79CBF3;
+  --secondary-down-color: #5591af;
+  --third-color: #F38E02;
+  --fourth-color: #F7A4DA;
+  --hover-color: #a9907e;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.navbar
+{
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    width: 100%;
+}
+.navbar .div-main-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .div-main-logo .div-logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .div-logo .text-logo {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar .div-logo .text-logo-tone {
+    color: var(--third-color);
+}
+.navbar .link
+{
+ display: flex;
+ flex: 5;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ gap: 60px;
+}
+.navbar .link .link-text
+{
+ text-decoration: none;
+ color: var(--secondary-color);
+ font-size: 20px;
+ transition: 0.3s;
+}
+.navbar .link .link-text:hover
+{
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    height:100%; 
+    padding:5px; 
+    border-radius: 4px;
+}
+.navbar .nav-btn-div
+{
+    display: flex;
+    gap: 13px;
+ padding-right: 20px;
+ flex: 1;
+}
+.btn1 {
+  align-items: center;
+  background-color: #fff;
+  border: 2px solid var(--secondary-color);
+  border-radius: 16px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #000;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 35px;
+  justify-content: center;
+  letter-spacing: -.8px;
+  line-height: 24px;
+  min-width: 100px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  color: var(--secondary-color);
+}
+.btn1:hover {
+  border-color: var(--secondary-color);
+  color: var(--secondary-color);
+  fill: var(--secondary-color);
+}
+.btn1:active {
+  border-color: var(--secondary-color);
+  color: var(--secondary-color);
+  fill: var(--secondary-color);
+}
+
+.btn1:hover,
+.alink1:hover {
+  border-color: var(--secondary-down-color);
+  color: var(--secondary-down-color);
+  fill: var(--secondary-down-color);
+}
+.alink1{
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-weight: 600;
+}
+
+.main-content
+{
+  background-color: var(--secondary-color);
+  width: 100%;
+  height: 39rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-content-container
+{
+  background-color: var(--primary-color);
+  width: 80%;
+  height: 27rem;
+  display: flex;
+  flex-direction: row;
+  border-radius: 16px;
+  padding: 4px;
+  padding-top: 20px;
+}
+.main-content-container .main-content-text-project-info
+{
+  width: 50%;
+}
+.main-content-container .main-content-text-project-info .main-content-text-project-info-header
+{
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.main-content-text-project-info-header .TrusTone-text
+{
+  text-align: center;
+}
+.slogen-text
+{
+  color: var(--third-color);
+}
+.main-content-container .main-content-text-project-info .main-content-text-project-info-description
+{
+  margin-top: 40px;
+  margin-left: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: medium;
+  font-style: normal;
+  width: 36rem;
+  height: auto;
+  text-align: start;
+}
+.main-content-container .main-content-image .main-content-image-robot
+{
+  width: 50%;
+}
